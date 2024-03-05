@@ -45,7 +45,7 @@
 
 <script>
 export default {
-  name: 'BlogDetailsArticle',
+  name: 'BlogDetailsArticleComponent',
   props: {
     msg: String
   },

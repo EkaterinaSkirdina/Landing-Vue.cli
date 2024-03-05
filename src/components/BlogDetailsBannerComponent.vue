@@ -1,14 +1,14 @@
 <template>
   <section class="blog_details_banner">
     <div class="blog_details_banner__bg-image">
-    <img src="@/assets/blogDetailsBanner.jpg" alt="banner image">
+    <img src="@/assets/BlogDetailsArticleImg/blogDetailsBanner.jpg" alt="banner image">
 </div>
   </section>
 </template>
 
 <script>
 export default {
-  name: 'BlogDetailsBanner',
+  name: 'BlogDetailsBannerComponent',
   
 }
 </script>

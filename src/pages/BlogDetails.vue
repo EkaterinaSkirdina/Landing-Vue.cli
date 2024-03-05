@@ -1,24 +1,24 @@
 <template>
 
-    <Header />
-    <BlogDetailsBanner />
-    <BlogDetailsArticle />
-    <Footer />
+    <HeaderComponent />
+    <BlogDetailsBannerComponent />
+    <BlogDetailsArticleComponent />
+    <FooterComponent />
   </template>
   
   <script>
-  import Header from '../components/Header.vue'
-  import Footer from '../components/Footer.vue'
-  import BlogDetailsBanner from '../components/BlogDetailsBanner.vue'
-  import BlogDetailsArticle from '../components/BlogDetailsArticle.vue'
+  import HeaderComponent from '../components/HeaderComponent.vue';
+  import FooterComponent from '../components/FooterComponent.vue';
+  import BlogDetailsBannerComponent from '../components/BlogDetailsBannerComponent.vue';
+  import BlogDetailsArticleComponent from '../components/BlogDetailsArticleComponent.vue';
   
   export default {
     name: 'BlogDetails',
     components: {
-      Header, 
-      Footer, 
-      BlogDetailsBanner,
-      BlogDetailsArticle,
+      HeaderComponent, 
+      FooterComponent, 
+      BlogDetailsBannerComponent,
+      BlogDetailsArticleComponent,
     }
   }
   </script>
