@@ -1,10 +1,12 @@
 <template>
 
-  <Home />
+  <!-- <Home /> -->
 
   <!-- <Blog /> -->
 
   <!-- <BlogDetails /> -->
+
+  <Project />
   
 </template>
 
@@ -12,6 +14,7 @@
 import Home from './pages/Home.vue';
 import BlogDetails from './pages/BlogDetails.vue';
 import Blog from './pages/Blog.vue';
+import Project from './pages/Project.vue';
 
 export default {
   name: 'App',
@@ -19,7 +22,8 @@ export default {
 
     Home,
     BlogDetails,
-    Blog
+    Blog,
+    Project,
 
   }
 }
