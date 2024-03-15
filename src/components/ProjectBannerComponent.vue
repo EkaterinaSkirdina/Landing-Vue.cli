@@ -1,5 +1,5 @@
 <template>
-    <section class="blog__banner" :style="{backgroundImage: srcImg}">
+    <section class="blog__banner project-banner-bgImg">
       <div class="container">
         <div v-if="isBreadCrumbs" class="breadcrumb">
           <h2 class="breadcrumb__name heading">{{ heading }}</h2>
@@ -25,6 +25,10 @@
 
 <style lang="scss">
 @import '@/assets/variables.scss';
+
+.project-banner-bgImg {
+  background-image: url('@/assets/ProjectImg/projectBanner.png');
+}
 
 .blog__banner {
     height: 356px;
