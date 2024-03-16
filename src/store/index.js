@@ -1,5 +1,6 @@
 import { createStore } from "vuex";
 import projectDetails from "./modules/projectDetails";
+import project from "./modules/project";
 
 export default createStore ({
     state: {},
@@ -8,5 +9,6 @@ export default createStore ({
     actions: {},
     modules: {
         projectDetails,
+        project,
     }
 })

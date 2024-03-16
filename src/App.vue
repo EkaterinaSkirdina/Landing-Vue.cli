@@ -6,9 +6,9 @@
 
   <!-- <BlogDetails /> -->
 
-  <!-- <Project /> -->
+  <Project />
 
-  <ProjectDetails />
+  <!-- <ProjectDetails /> -->
   
 </template>
 
