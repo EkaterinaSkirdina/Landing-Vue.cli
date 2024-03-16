@@ -1,6 +1,8 @@
 import { createStore } from "vuex";
 import projectDetails from "./modules/projectDetails";
 import project from "./modules/project";
+import blogDetails from "./modules/blogDetails";
+import blog from "./modules/blog";
 
 export default createStore ({
     state: {},
@@ -10,5 +12,7 @@ export default createStore ({
     modules: {
         projectDetails,
         project,
+        blogDetails,
+        blog,
     }
 })

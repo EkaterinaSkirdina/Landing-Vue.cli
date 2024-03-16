@@ -1,12 +1,12 @@
 <template>
 
-  <!-- <Home /> -->
+  <Home />
 
   <!-- <Blog /> -->
 
   <!-- <BlogDetails /> -->
 
-  <Project />
+  <!-- <Project /> -->
 
   <!-- <ProjectDetails /> -->
   
