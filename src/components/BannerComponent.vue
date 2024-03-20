@@ -4,8 +4,8 @@
         <div v-if="isBreadCrumbs" class="breadcrumb">
           <h2 class="breadcrumb__name heading">{{ heading }}</h2>
           <p class="breadcrumb__way">
-            <a class="text" href="#">Home</a>
-            <a class="text" href="#">{{ pageName }}</a>
+            <router-link to="/" class="text">Home</router-link>
+            <span class="current-way" href="#">{{ pageName }}</span>
           </p>
         </div>
       </div>
@@ -56,5 +56,14 @@
     &:hover {
         font-weight: 700;
     }
+}
+.current-way {
+  font-family: Jost;
+  font-size: 22px;
+  line-height: 150%;
+  color: #4D5053;
+  white-space: pre-line;
+  font-weight: 500;
+  border-bottom: #4D5053 solid 1px;
 }
 </style>

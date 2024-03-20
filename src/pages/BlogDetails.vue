@@ -1,5 +1,4 @@
 <template>
-    <!-- <BlogDetailsBannerComponent /> -->
     <BannerComponent :class="'blogDetails-banner-bgImg'" :isBreadCrumbs='false'/>
     <BlogDetailsArticleComponent />
     <FooterComponent />
