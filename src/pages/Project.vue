@@ -1,5 +1,4 @@
 <template>    
-    <HeaderComponent />
 
     <ProjectBannerComponent heading='Our Project' pageName='Project' :class="'project-banner-bgImg'" :isBreadCrumbs='true'/>
 

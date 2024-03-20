@@ -1,6 +1,4 @@
 <template>
-
-    <HeaderComponent />
     <BlogDetailsBannerComponent />
     <BlogDetailsArticleComponent />
     <FooterComponent />

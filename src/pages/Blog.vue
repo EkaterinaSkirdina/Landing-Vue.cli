@@ -1,9 +1,8 @@
 <template>
-    <HeaderComponent />
     <BlogBannerComponent />
     <LatestPostComponent />
     <BlogArticlesComponent />
-    <Footer />
+    <FooterComponent />
 </template>
 <script>
     import HeaderComponent from '../components/HeaderComponent.vue';

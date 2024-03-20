@@ -1,5 +1,4 @@
 <template>
-    <HeaderComponent />
     <ProjectBannerComponent :isBreadCrumbs="false" :class="'projectDeteils-banner-bgImg'"/>
     <ProjectDetailsItem />
     <FooterComponent />
