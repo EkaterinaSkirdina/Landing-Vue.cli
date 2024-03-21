@@ -1,12 +1,12 @@
 <template>
   <HeaderComponent />
-  <!-- <RouterView/> -->
+  <RouterView/>
 
   <!-- <Home /> -->
 
   <!-- <Blog /> -->
 
-  <BlogDetails />
+  <!-- <BlogDetails /> -->
 
   <!-- <Project /> -->
 
